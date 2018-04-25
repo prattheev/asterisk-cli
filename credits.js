@@ -1,5 +1,5 @@
 var credits = function(){
-    console.log('\033[2J');
+    process.stdout.write('\x1Bc');
     console.log("");
     console.log("      ###     ######  ######## ######## ########  ####  ######  ##    ## ");
     console.log("     ## ##   ##    ##    ##    ##       ##     ##  ##  ##    ## ##   ##  ");
