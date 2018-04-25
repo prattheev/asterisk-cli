@@ -1,6 +1,6 @@
 /**
  *
- *  Codecracker {
+ *  Asterisk {
  *      code: String,
  *      history: {
  *          guess: Array <String>,
@@ -76,7 +76,7 @@ function MakeGuess(){
     }
 }
 
-class Codecracker {
+class Asterisk {
 
     constructor(){
         this.generateCode = GenerateCode();
@@ -160,4 +160,4 @@ class Codecracker {
 }
 
 
- module.exports = Codecracker;
+ module.exports = Asterisk;

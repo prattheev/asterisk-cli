@@ -9,6 +9,10 @@
   },
   "author": "Pratheev",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/prattheev/asterisk-cli.git"
+  },
   "dependencies": {
     "seedrandom": "^2.4.3"
   }

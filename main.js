@@ -1,7 +1,7 @@
 // Imports
 const readline = require('readline');
 const credits = require('./credits');
-const Codecracker = require('./codecracker');
+const Asterisk = require('./asterisk');
 
 // Config Interface
 const user = readline.createInterface({
@@ -13,7 +13,7 @@ const user = readline.createInterface({
 credits();
 
 // Create new game
-var game = new Codecracker();
+var game = new Asterisk();
 console.log("\n4-digit pin (0000-9999) has been generated. You got 15 tries to crack it!\n");
 
 // While the game is not over
